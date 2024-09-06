@@ -1,0 +1,17 @@
+// Définir la variable pour la couleur bleue
+$blue: #007bff;
+
+// Styliser la liste
+ul {
+    // Enlever le style par défaut de la liste
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    // Styliser les éléments de liste
+    li {
+        color: $blue;
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+}
